@@ -1,0 +1,79 @@
+.main-header {
+	background: url(../img/background.jpg) no-repeat center center/cover;
+	min-height: 60vh;
+	color: white;
+}
+
+.main-header-solutions {
+	background: url(../img/background.jpg) no-repeat center center/cover;
+	min-height: 40vh;
+	color: white;
+}
+
+.primary-overlay {
+	background: rgba(112, 81, 176, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.main-header .showcase {
+	padding-top: 7rem;
+}
+
+.main-header-solutions .showcase {
+	padding-top: 4rem;
+}
+
+.section-about {
+	padding: 4rem 0 3rem;
+}
+
+.section-developers {
+	position: relative;
+	background: url(../img/code.jpg) no-repeat center center/cover;
+	min-height: 180px;
+}
+
+.section-podcast {
+	position: relative;
+	background: url(../img/circuit.jpg) no-repeat center center/cover;
+	min-height: 180px;
+}
+
+.section-podcast a {
+	margin-top: 2rem;
+}
+
+.section-podcast .primary-overlay {
+	background: rgba(112, 81, 176, 0.8);
+}
+
+.carousel-item p {
+	font-size: 1.25rem !important;
+}
+
+.tabs .indicator {
+	background-color: rgba(112, 81, 176, 0.7) !important;
+}
+
+.tabs .tab a {
+	color: rgba(112, 81, 176, 0.7);
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+	color: rgba(112, 81, 176, 1);
+}
+
+@media (max-width: 500px) {
+	.section-podcast {
+		min-height: 240px;
+	}
+
+	.section-podcast a {
+		margin-top: 1rem;
+	}
+}

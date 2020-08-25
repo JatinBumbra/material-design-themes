@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import Google Icon Font-->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<!--Import materialize.css-->
+		<link
+			type="text/css"
+			rel="stylesheet"
+			href="css/materialize.min.css"
+			media="screen,projection"
+		/>
+		<link type="text/css" rel="stylesheet" href="css/main.css" />
+
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MAdmin | Welcome</title>
+	</head>
+
+	<body class="grey lighten-4">
+		<!-- Navigation : START -->
+		<nav class="blue darken-2">
+			<div class="container">
+				<div class="nav-wrapper">
+					<a href="index.html" class="brand-logo">MAdmin</a>
+				</div>
+			</div>
+		</nav>
+		<!-- Navigation : END -->
+
+		<!-- Login : START -->
+		<section class="section section-login">
+			<div class="container">
+				<div class="row">
+					<div class="col s12 m8 offset-m2 l6 offset-l3">
+						<div class="card-panel login blue lighten-1 white-text center">
+							<h2>MAdmin Login</h2>
+							<form action="index.html">
+								<div class="input-field">
+									<i class="material-icons prefix">email</i>
+									<input type="email" name="email" id="email" />
+									<label class="white-text" for="email">Email</label>
+								</div>
+								<div class="input-field">
+									<i class="material-icons prefix">lock</i>
+									<input type="password" name="password" id="password" />
+									<label class="white-text" for="password">Password</label>
+								</div>
+								<input
+									href="index.html"
+									class="btn btn-large lighten-4 black-text grey waves-effect"
+									value="Login"
+									type="submit"
+								/>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Login : END -->
+
+		<!-- Footer : START -->
+		<footer class="section blue darken-2 white-text center">
+			<p>MAdmin Panel Copyright &copy; 2020</p>
+		</footer>
+		<!-- Footer : END -->
+
+		<!-- Preloader: START -->
+		<div class="preloader-wrapper loader big active">
+			<div class="spinner-layer spinner-blue-only">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+		</div>
+		<!-- Preloader: END -->
+
+		<!--Import jQuery before materialize.js-->
+		<script
+			type="text/javascript"
+			src="https://code.jquery.com/jquery-3.2.1.min.js"
+		></script>
+		<!-- Materialize -->
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script>
+			// Hide sections initially
+			$('.section').hide();
+
+			setTimeout(function () {
+				$(document).ready(function () {
+					// Show sections
+					$('.section').fadeIn();
+					// Hide loader
+					$('.loader').hide();
+				});
+			}, 1000);
+		</script>
+	</body>
+</html>

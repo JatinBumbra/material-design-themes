@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import Google Icon Font-->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<!--Import materialize.css-->
+		<link
+			type="text/css"
+			rel="stylesheet"
+			href="css/materialize.min.css"
+			media="screen,projection"
+		/>
+		<link type="text/css" rel="stylesheet" href="css/main.css" />
+
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MAdmin | Welcome</title>
+	</head>
+
+	<body class="grey lighten-4">
+		<!-- Navigation : START -->
+		<nav class="blue darken-2">
+			<div class="container">
+				<div class="nav-wrapper">
+					<a href="index.html" class="brand-logo">MAdmin</a>
+					<a
+						href="#"
+						class="button-collapse show-on-large right"
+						data-activates="side-nav"
+					>
+						<i class="material-icons">menu</i>
+					</a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="index.html">Dashboard</a></li>
+						<li class="active"><a href="posts.html">Posts</a></li>
+						<li><a href="categories.html">Categories</a></li>
+						<li><a href="comments.html">Comments</a></li>
+						<li><a href="users.html">Users</a></li>
+					</ul>
+					<!-- Side Nav: START -->
+					<ul id="side-nav" class="side-nav">
+						<li>
+							<div class="user-view">
+								<div class="background">
+									<img src="./img/ocean.jpg" alt="" />
+								</div>
+								<a href="#">
+									<img src="./img/person1.jpg" alt="" class="circle" />
+								</a>
+								<a href="#">
+									<span class="name white-text">John Doe</span>
+								</a>
+								<a href="#">
+									<span class="email white-text">jdoe@email.com</span>
+								</a>
+							</div>
+						</li>
+						<li>
+							<a href="index.html"
+								><i class="material-icons">dashboard</i> Dashboard</a
+							>
+						</li>
+						<li><a href="posts.html">Posts</a></li>
+						<li><a href="categories.html">Categories</a></li>
+						<li><a href="comments.html">Comments</a></li>
+						<li><a href="users.html">Users</a></li>
+						<li>
+							<div class="divider"></div>
+						</li>
+						<li><a href="#" class="subheader">Account Controls</a></li>
+						<li><a href="login.html" class="waves-effect">Logout</a></li>
+					</ul>
+					<!-- Side Nav: END -->
+				</div>
+			</div>
+		</nav>
+		<!-- Navigation : END -->
+
+		<!-- Posts : START -->
+		<section class="section section-posts grey lighten-4">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<div class="card">
+							<div class="card-content">
+								<div class="card-title">Posts</div>
+								<table class="striped">
+									<thead>
+										<tr>
+											<th>Title</th>
+											<th>Category</th>
+											<th>Date Created</th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Post One</td>
+											<td>Web Development</td>
+											<td>June 1, 2020</td>
+											<td>
+												<a href="details.html" class="btn blue darken-1"
+													>Details</a
+												>
+											</td>
+										</tr>
+										<tr>
+											<td>Post Two</td>
+											<td>Artificial Intelligence</td>
+											<td>June 7, 2020</td>
+											<td>
+												<a href="details.html" class="btn blue darken-1"
+													>Details</a
+												>
+											</td>
+										</tr>
+										<tr>
+											<td>Post Three</td>
+											<td>Web Development</td>
+											<td>June 9, 2020</td>
+											<td>
+												<a href="details.html" class="btn blue darken-1"
+													>Details</a
+												>
+											</td>
+										</tr>
+										<tr>
+											<td>Post Four</td>
+											<td>Artificial Intelligence</td>
+											<td>June 10, 2020</td>
+											<td>
+												<a href="details.html" class="btn blue darken-1"
+													>Details</a
+												>
+											</td>
+										</tr>
+										<tr>
+											<td>Post Five</td>
+											<td>Tech Gadgets</td>
+											<td>June 11, 2020</td>
+											<td>
+												<a href="details.html" class="btn blue darken-1"
+													>Details</a
+												>
+											</td>
+										</tr>
+										<tr>
+											<td>Post Six</td>
+											<td>Web Development</td>
+											<td>June 14, 2020</td>
+											<td>
+												<a href="details.html" class="btn blue darken-1"
+													>Details</a
+												>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="card-action">
+								<ul class="pagination">
+									<li class="disabled">
+										<a href="#" class="blue-text">
+											<i class="material-icons">chevron_left</i>
+										</a>
+									</li>
+									<li class="active blue lighten-2">
+										<a href="#" class="white-text center">
+											1
+										</a>
+									</li>
+									<li class="waves-effect">
+										<a href="#" class="blue-text">
+											2
+										</a>
+									</li>
+									<li class="waves-effect">
+										<a href="#" class="blue-text">
+											3
+										</a>
+									</li>
+									<li class="waves-effect">
+										<a href="#" class="blue-text">
+											4
+										</a>
+									</li>
+									<li class="waves-effect">
+										<a href="#" class="blue-text">
+											<i class="material-icons">chevron_right</i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Posts : END -->
+
+		<!-- Footer : START -->
+		<footer class="section blue darken-2 white-text center">
+			<p>MAdmin Panel Copyright &copy; 2020</p>
+		</footer>
+		<!-- Footer : END -->
+
+		<!-- Fixed Action Button : START  -->
+		<div class="fixed-action-btn">
+			<a
+				href="#post-modal"
+				class="modal-trigger btn btn-floating btn-large red"
+			>
+				<i class="material-icons">add</i>
+			</a>
+		</div>
+		<!-- Fixed Action Button : END  -->
+
+		<!-- Add Post Modal : START -->
+		<div class="modal" id="post-modal">
+			<div class="modal-content">
+				<h4>Add Post</h4>
+				<form>
+					<div class="input-field">
+						<input type="text" id="title" />
+						<label for="title">Title</label>
+					</div>
+					<div class="input-field">
+						<select id="category">
+							<option value="" disabled="disabled">Select Option</option>
+							<option value="1">Web Development</option>
+							<option value="2">Graphic Design</option>
+							<option value="3">Tech Gadgets</option>
+							<option value="4">Artificial Intelligence</option>
+						</select>
+						<label for="category">Category</label>
+					</div>
+					<div class="input-field">
+						<textarea
+							name="body"
+							id="body"
+							class="materialize-textarea"
+						></textarea>
+						<label for="body">Body</label>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class="modal-action modal-close btn blue white-text"
+					>Submit</a
+				>
+			</div>
+		</div>
+		<!-- Add Post Modal : END -->
+
+		<!-- Preloader: START -->
+		<div class="preloader-wrapper loader big active">
+			<div class="spinner-layer spinner-blue-only">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+		</div>
+		<!-- Preloader: END -->
+
+		<!--Import jQuery before materialize.js-->
+		<script
+			type="text/javascript"
+			src="https://code.jquery.com/jquery-3.2.1.min.js"
+		></script>
+		<!-- Materialize -->
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<!-- CKEditor -->
+		<script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+		<script>
+			// Hide sections initially
+			$('.section').hide();
+
+			setTimeout(function () {
+				$(document).ready(function () {
+					// Show sections
+					$('.section').fadeIn();
+					// Hide loader
+					$('.loader').hide();
+					// Init side-nav
+					$('.button-collapse').sideNav();
+					// Init modal
+					$('.modal').modal();
+					// Init select
+					$('select').material_select();
+					// CKEditor
+					CKEDITOR.replace('body');
+				});
+			}, 1000);
+		</script>
+	</body>
+</html>
